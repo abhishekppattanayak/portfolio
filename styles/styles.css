@@ -1,0 +1,27 @@
+#profile-photo{
+    display: inline-block;
+    width: 25%;
+}
+#profile-caption{
+    font-size: larger;
+}
+#profile{
+    display: block;
+    width: 50%;
+}
+#name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+#description{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#references{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#details{
+    display: inline-block;
+    width: 75%;
+    height: 1em;
+}
