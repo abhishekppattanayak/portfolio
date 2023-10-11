@@ -1,9 +1,5 @@
 html{
     min-width: 350px;
-    max-width: 800px;
-}
-body{
-    
 }
 #profile-photo{
     display: inline-block;
@@ -14,7 +10,7 @@ body{
 }
 #profile{
     display: block;
-    width: 50%;
+    width: 75%;
 }
 #name{
     font-size: 40px;
@@ -41,6 +37,9 @@ body{
 #services{
     width:40%;
 }
-.form{
-    display
+.form-container{
+    text-align: center;
+}
+.form-items{
+    display: block;
 }
