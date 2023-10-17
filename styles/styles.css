@@ -15,3 +15,14 @@
     justify-content: left;
     align-items: center;
 }
+.col-sm-8 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: larger ;
+}
+footer{
+    font-family: monospace;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+}
