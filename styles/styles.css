@@ -26,3 +26,12 @@ footer{
     display: flex;
     justify-content: center;
 }
+.carousel-caption{
+    background-color: rgba(169, 169, 169, 0.67); border-radius:10%
+}
+.carousel-caption p, .carousel-caption h5{
+    color: black;
+}
+.carousel-item img{
+    height: 300px;
+}
