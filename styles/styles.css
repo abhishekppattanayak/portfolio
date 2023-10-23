@@ -1,15 +1,15 @@
 #name {
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 700;
-    font-size: 4.5rem;
+    font-weight: 600;
+    
 }
 
-.col-8 {
+.col-sm-8 {
     justify-content: left;
     align-items: center;
 }
 
-.col-8 p {
+.col-sm-8 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
     font-size: larger;
