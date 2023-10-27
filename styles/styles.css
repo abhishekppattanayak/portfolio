@@ -14,12 +14,8 @@
     font-weight: 300;
     font-size: larger;
 }
-
 footer {
     font-family: monospace;
-    font-size: 1.3rem;
-    display: flex;
-    justify-content: center;
 }
 
 .carousel-caption {
@@ -34,4 +30,9 @@ footer {
 
 .carousel-item img {
     height: 300px;
+}
+
+.navbar{
+    font-weight: 1000; 
+    font-size:x-large;
 }

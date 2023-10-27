@@ -1,5 +1,5 @@
 const intro = document.getElementById('intro');
-const list = "a student.    | a web enthusiast.    | passionate for AI and ML.    ".split('|');
+const list = "a student.    | a web enthusiast.    | passionate for new technologies.    ".split('|');
 let currentIndex = 0;
 
 function typeText(textElement, text, speed, callback) {
@@ -31,8 +31,8 @@ function backspaceText(textElement, text, deleteSpeed, callback) {
 function animateText() {
   if (currentIndex < list.length) {
     const listItem = list[currentIndex];
-    typeText(intro, listItem, 120, function() {
-      backspaceText(intro, "Hi! I am " + listItem, 100, function() {
+    typeText(intro, listItem, 75, function() {
+      backspaceText(intro, "Hi! I am " + listItem, 25, function() {
         currentIndex = (currentIndex + 1) % list.length;
         animateText();
       });

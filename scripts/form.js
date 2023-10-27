@@ -48,19 +48,5 @@ if (lightModeButton) {
   lightModeButton.addEventListener('click', toggleTheme);
 }
 
-// Get the user's preferred theme mode from the cookie (if set)
-const preferredTheme = getCookie('preferredTheme');
-if (preferredTheme) {
-  // Set the initial theme based on the user's preference
-  const html = document.documentElement;
-  html.setAttribute('data-bs-theme', preferredTheme);
-
-  // Update the button text based on the user's preference
-  if (lightModeButton) {
-    if (preferredTheme === 'dark') {
-      lightModeButton.textContent = 'Light Mode';
-    } else {
-      lightModeButton.textContent = 'Dark Mode';
-    }
-  }
-}
+document.documentElement.style.cursor = 'url(./images/cursor.cur), default';
+document.getElementById('copyright').textContent = '© Abhishek Pattanayak ' + new Date().getFullYear();
